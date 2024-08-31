@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+h2 {
+    color: #4e4e4e;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form select,
+form button {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #7d4880;
+    outline: none;
+    box-shadow: 0 0 5px rgba(125, 72, 128, 0.5);
+}
+
+form button {
+    background-color: #000; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #333; 
+}
+
+
+p {
+    margin-top: 20px;
+    color: #555;
+}
+
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bmi-result {
+    font-size: 2em;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #2e3135;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-btn,
+.btn,
+.go-back-btn,
+.logout-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #000; 
+}
+
+.login-btn:hover,
+.btn:hover,
+.go-back-btn:hover,
+.logout-btn:hover {
+    background-color: #333; 
+    transform: translateY(-2px);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.highlight {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.register-link {
+    color: #784080;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+    color: #522752;
+}
